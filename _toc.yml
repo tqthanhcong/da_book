@@ -3,7 +3,11 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+- caption: Phân tích dữ liệu đa biến
+  chapters:
+  - file: da_book/multivariate/mulitvariate_with_r.ipynb
+  - file: notebooks
+- caption: Introduction
+  chapters:
+  - file: markdown-notebooks
