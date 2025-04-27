@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Giới thiệu &#8212; My Data Analysis Handbook</title>
+    <title>Các ngành liên quan &#8212; My Data Analysis Handbook</title>
   
   
   
@@ -57,11 +57,11 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'multivariate/intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'theory/compare';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Thay SPSS bằng R" href="mulitvariate_with_r.html" />
-    <link rel="prev" title="Các ngành liên quan" href="../theory/compare.html" />
+    <link rel="next" title="Giới thiệu" href="../multivariate/intro.html" />
+    <link rel="prev" title="Lịch Sử" href="history.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -180,14 +180,14 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bàn về lý thuyết</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../theory/history.html">Lịch Sử</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../theory/compare.html">Các ngành liên quan</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="history.html">Lịch Sử</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Các ngành liên quan</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Phân tích dữ liệu đa biến</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Giới thiệu</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mulitvariate_with_r.html">Thay SPSS bằng R</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../multivariate/intro.html">Giới thiệu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multivariate/mulitvariate_with_r.html">Thay SPSS bằng R</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Kinh tế lượng nâng cao</span></p>
 <ul class="nav bd-sidenav">
@@ -247,7 +247,7 @@
       
       
       
-      <li><a href="../_sources/multivariate/intro.md" target="_blank"
+      <li><a href="../_sources/theory/compare.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -318,7 +318,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -329,11 +331,22 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Giới thiệu</h1>
+    <h1>Các ngành liên quan</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis-lien-quan-den-nhung-nganh-nao">Data Analysis Liên Quan Đến Những Ngành Nào?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#so-sanh-data-analysis-voi-cac-nganh-nghe-tuong-tu">So Sánh Data Analysis Với Các Ngành Nghề Tương Tự</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vai-tro-cua-data-analysis-trong-thoi-dai-hien-nay">Vai Trò Của Data Analysis Trong Thời Đại Hiện Nay</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ket-luan">Kết Luận</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -343,17 +356,65 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="gioi-thieu">
-<h1>Giới thiệu<a class="headerlink" href="#gioi-thieu" title="Link to this heading">#</a></h1>
-<blockquote>
-<div><p>“Chúng tôi dùng từ <strong>nhà nghiên cứu</strong> khi đề cập đến các Data Analyst bất kể họ ở lĩnh vực thực tiễn hay học thuật hàn lâm. Không cần phân biệt giữa hai lĩnh vực này,… ở bất kỳ lĩnh vực nào, <strong>nhà nghiên cứu</strong> cũng dựa trên cơ sở lý thuyết, số liệu định lượng và phải giải quyết những vấn đề liên quan đến các phương pháp thống kê.”<br />
-— Joseph F. Hair, <em>Multivariate Data Analysis</em></p>
-</div></blockquote>
-<p>Khái niệm <code class="docutils literal notranslate"><span class="pre">phân</span> <span class="pre">tích</span> <span class="pre">dữ</span> <span class="pre">liệu</span> <span class="pre">đa</span> <span class="pre">biến</span></code> nghe có vẻ khá lạ trong cộng đồng làm nghề Data Analysis, có lẽ là do các bài toán phân tích trong thực tế doanh nghiệp vốn dĩ đã là đa biến, nên không cần phải nhấn mạnh lại cụm từ này. Mình cũng chỉ nghe tới môn này khi tham gia lớp thạc sĩ thống kê tại UEH. Cũng khá nhiều thứ hay ho!</p>
-<p>Trong lớp thạc sĩ, giảng viên hướng dẫn xử lý bằng phần mềm SPSS, một phần mềm thống kê đóng gói sẵn của IBM. Tuy nhiên, do việc cài đặt SPSS trên con Macbook khá phức tạp và SPSS cũng ít áp dụng vào công việc thực tế, mình đã tìm cách thực hiện lại các phân tích tương tự bằng R và Python.</p>
-<p>Ngoài ra, mình cũng được giới thiệu quyển sách “Multivariate Data Analysis”. Từ đó, mình đã chắt lọc một số nội dung yêu thích nằm ngoài chương trình học để tìm hiểu thêm và thực hiện chúng trên Python.</p>
-<p>Hy vọng nội dung này sẽ hữu ích cho bạn trong việc học tập và phát triển kỹ năng.</p>
-<p>Xem thêm tại <a class="reference external" href="https://congtrandata.io.vn">congtrandata.io.vn</a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="cac-nganh-lien-quan">
+<h1>Các ngành liên quan<a class="headerlink" href="#cac-nganh-lien-quan" title="Link to this heading">#</a></h1>
+<p>Data Analysis, hay phân tích dữ liệu, thực chất là việc chúng ta sử dụng dữ liệu để tìm ra câu chuyện ẩn giấu bên trong.</p>
+<section id="data-analysis-lien-quan-den-nhung-nganh-nao">
+<h2>Data Analysis Liên Quan Đến Những Ngành Nào?<a class="headerlink" href="#data-analysis-lien-quan-den-nhung-nganh-nao" title="Link to this heading">#</a></h2>
+<p>Data Analysis không hoạt động độc lập mà luôn có sự kết nối với nhiều ngành khác. Ví dụ:</p>
+<ul class="simple">
+<li><p><strong>Khoa học máy tính:</strong> Đây là nơi cung cấp các công cụ và thuật toán để xử lý dữ liệu lớn. Những thứ như học máy hay khai phá dữ liệu đều xuất phát từ đây.</p></li>
+<li><p><strong>Thống kê:</strong> Đây là nền tảng lý thuyết, giúp chúng ta phân tích và suy luận từ dữ liệu một cách chính xác.</p></li>
+<li><p><strong>Kinh doanh:</strong> Trong kinh doanh, Data Analysis giúp phân tích hành vi khách hàng, tối ưu hóa quy trình, và đưa ra các quyết định dựa trên dữ liệu.</p></li>
+<li><p><strong>Kinh tế học:</strong> Phân tích dữ liệu kinh tế giúp chúng ta hiểu rõ hơn về thị trường và các xu hướng kinh tế.</p></li>
+<li><p><strong>Xã hội học:</strong> Đây là nơi dữ liệu được sử dụng để nghiên cứu hành vi và xu hướng xã hội.</p></li>
+</ul>
+<p>Ngoài ra, còn rất nhiều lĩnh vực khác như y học, giáo dục, hay môi trường cũng đang tận dụng sức mạnh của Data Analysis để giải quyết các vấn đề thực tế.</p>
+</section>
+<section id="so-sanh-data-analysis-voi-cac-nganh-nghe-tuong-tu">
+<h2>So Sánh Data Analysis Với Các Ngành Nghề Tương Tự<a class="headerlink" href="#so-sanh-data-analysis-voi-cac-nganh-nghe-tuong-tu" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Ngành Nghề</strong></p></th>
+<th class="head"><p><strong>Mục Tiêu Chính</strong></p></th>
+<th class="head"><p><strong>Khác Biệt Với Data Analysis</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Data Science</strong></p></td>
+<td><p>Xây dựng mô hình dự đoán và thuật toán học máy.</p></td>
+<td><p>Data Science bao gồm cả Data Analysis nhưng mở rộng hơn với các kỹ thuật phức tạp hơn.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Statistics</strong></p></td>
+<td><p>Tập trung vào lý thuyết và phương pháp thống kê.</p></td>
+<td><p>Data Analysis sử dụng thống kê như công cụ, nhưng tập trung vào ứng dụng thực tế hơn.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Researcher</strong></p></td>
+<td><p>Khám phá kiến thức mới trong một lĩnh vực cụ thể.</p></td>
+<td><p>Data Analysis thường áp dụng các phương pháp đã có để giải quyết vấn đề thực tế.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Business Analyst</strong></p></td>
+<td><p>Phân tích dữ liệu kinh doanh để đưa ra quyết định.</p></td>
+<td><p>Data Analysis có phạm vi rộng hơn, không chỉ giới hạn trong kinh doanh.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Machine Learning Engineer</strong></p></td>
+<td><p>Xây dựng và triển khai các mô hình học máy.</p></td>
+<td><p>Data Analysis tập trung vào việc hiểu và diễn giải dữ liệu hơn là xây dựng mô hình phức tạp.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="vai-tro-cua-data-analysis-trong-thoi-dai-hien-nay">
+<h2>Vai Trò Của Data Analysis Trong Thời Đại Hiện Nay<a class="headerlink" href="#vai-tro-cua-data-analysis-trong-thoi-dai-hien-nay" title="Link to this heading">#</a></h2>
+<p>Hiện nay, dữ liệu là một phần không thể thiếu trong mọi lĩnh vực. Data Analysis giúp chúng ta biến dữ liệu thô thành thông tin có giá trị. Các doanh nghiệp sử dụng nó để tối ưu hóa chiến lược, trong khi các nhà khoa học dùng nó để giải quyết các vấn đề toàn cầu như biến đổi khí hậu hay cải thiện hệ thống y tế.</p>
+<p>Với sự phát triển của công nghệ, Data Analysis ngày càng trở nên quan trọng hơn. Nó không chỉ giúp chúng ta hiểu rõ hơn về thế giới mà còn mở ra những cơ hội mới để cải thiện cuộc sống.</p>
+</section>
+<section id="ket-luan">
+<h2>Kết Luận<a class="headerlink" href="#ket-luan" title="Link to this heading">#</a></h2>
+<p>Data Analysis là một lĩnh vực thú vị, kết hợp nhiều ngành khác nhau để xử lý và hiểu dữ liệu. Dù có sự giao thoa với các ngành như Data Science hay Statistics, nó vẫn giữ được nét riêng, tập trung vào việc sử dụng dữ liệu để giải quyết các vấn đề thực tế.</p>
+<p>Trong tương lai, với sự bùng nổ của dữ liệu, Data Analysis chắc chắn sẽ tiếp tục là một kỹ năng không thể thiếu, mang lại giá trị lớn cho cả cá nhân và tổ chức.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -369,7 +430,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./multivariate"
+            path: "./theory"
         },
         predefinedOutput: true
     }
@@ -387,20 +448,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../theory/compare.html"
+       href="history.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Các ngành liên quan</p>
+        <p class="prev-next-title">Lịch Sử</p>
       </div>
     </a>
     <a class="right-next"
-       href="mulitvariate_with_r.html"
+       href="../multivariate/intro.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Thay SPSS bằng R</p>
+        <p class="prev-next-title">Giới thiệu</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -410,6 +471,24 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis-lien-quan-den-nhung-nganh-nao">Data Analysis Liên Quan Đến Những Ngành Nào?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#so-sanh-data-analysis-voi-cac-nganh-nghe-tuong-tu">So Sánh Data Analysis Với Các Ngành Nghề Tương Tự</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vai-tro-cua-data-analysis-trong-thoi-dai-hien-nay">Vai Trò Của Data Analysis Trong Thời Đại Hiện Nay</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ket-luan">Kết Luận</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Giới thiệu &#8212; My Data Analysis Handbook</title>
+    <title>Lịch Sử &#8212; My Data Analysis Handbook</title>
   
   
   
@@ -57,11 +57,11 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'multivariate/intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'theory/history';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Thay SPSS bằng R" href="mulitvariate_with_r.html" />
-    <link rel="prev" title="Các ngành liên quan" href="../theory/compare.html" />
+    <link rel="next" title="Các ngành liên quan" href="compare.html" />
+    <link rel="prev" title="Data analysis handbook" href="../intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -180,14 +180,14 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bàn về lý thuyết</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../theory/history.html">Lịch Sử</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../theory/compare.html">Các ngành liên quan</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Lịch Sử</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compare.html">Các ngành liên quan</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Phân tích dữ liệu đa biến</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Giới thiệu</a></li>
-<li class="toctree-l1"><a class="reference internal" href="mulitvariate_with_r.html">Thay SPSS bằng R</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../multivariate/intro.html">Giới thiệu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../multivariate/mulitvariate_with_r.html">Thay SPSS bằng R</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Kinh tế lượng nâng cao</span></p>
 <ul class="nav bd-sidenav">
@@ -247,7 +247,7 @@
       
       
       
-      <li><a href="../_sources/multivariate/intro.md" target="_blank"
+      <li><a href="../_sources/theory/history.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -318,7 +318,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -329,11 +331,24 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Giới thiệu</h1>
+    <h1>Lịch Sử</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#thoi-ky-so-khai">Thời Kỳ Sơ Khai</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#giai-doan-phat-trien-ban-dau">Giai Đoạn Phát Triển Ban Đầu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#thoi-dai-ky-thuat-so">Thời Đại Kỹ Thuật Số</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ky-nguyen-du-lieu-lon">Kỷ Nguyên Dữ Liệu Lớn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hien-tai-va-tuong-lai">Hiện Tại và Tương Lai</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ket-luan">Kết Luận</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -343,17 +358,38 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="gioi-thieu">
-<h1>Giới thiệu<a class="headerlink" href="#gioi-thieu" title="Link to this heading">#</a></h1>
-<blockquote>
-<div><p>“Chúng tôi dùng từ <strong>nhà nghiên cứu</strong> khi đề cập đến các Data Analyst bất kể họ ở lĩnh vực thực tiễn hay học thuật hàn lâm. Không cần phân biệt giữa hai lĩnh vực này,… ở bất kỳ lĩnh vực nào, <strong>nhà nghiên cứu</strong> cũng dựa trên cơ sở lý thuyết, số liệu định lượng và phải giải quyết những vấn đề liên quan đến các phương pháp thống kê.”<br />
-— Joseph F. Hair, <em>Multivariate Data Analysis</em></p>
-</div></blockquote>
-<p>Khái niệm <code class="docutils literal notranslate"><span class="pre">phân</span> <span class="pre">tích</span> <span class="pre">dữ</span> <span class="pre">liệu</span> <span class="pre">đa</span> <span class="pre">biến</span></code> nghe có vẻ khá lạ trong cộng đồng làm nghề Data Analysis, có lẽ là do các bài toán phân tích trong thực tế doanh nghiệp vốn dĩ đã là đa biến, nên không cần phải nhấn mạnh lại cụm từ này. Mình cũng chỉ nghe tới môn này khi tham gia lớp thạc sĩ thống kê tại UEH. Cũng khá nhiều thứ hay ho!</p>
-<p>Trong lớp thạc sĩ, giảng viên hướng dẫn xử lý bằng phần mềm SPSS, một phần mềm thống kê đóng gói sẵn của IBM. Tuy nhiên, do việc cài đặt SPSS trên con Macbook khá phức tạp và SPSS cũng ít áp dụng vào công việc thực tế, mình đã tìm cách thực hiện lại các phân tích tương tự bằng R và Python.</p>
-<p>Ngoài ra, mình cũng được giới thiệu quyển sách “Multivariate Data Analysis”. Từ đó, mình đã chắt lọc một số nội dung yêu thích nằm ngoài chương trình học để tìm hiểu thêm và thực hiện chúng trên Python.</p>
-<p>Hy vọng nội dung này sẽ hữu ích cho bạn trong việc học tập và phát triển kỹ năng.</p>
-<p>Xem thêm tại <a class="reference external" href="https://congtrandata.io.vn">congtrandata.io.vn</a>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="lich-su">
+<h1>Lịch Sử<a class="headerlink" href="#lich-su" title="Link to this heading">#</a></h1>
+<section id="thoi-ky-so-khai">
+<h2>Thời Kỳ Sơ Khai<a class="headerlink" href="#thoi-ky-so-khai" title="Link to this heading">#</a></h2>
+<p>Khi nói về lịch sử của phân tích dữ liệu, chúng ta không thể không nhắc đến những bước đi đầu tiên từ thế kỷ 17 và 18. Đây là thời kỳ mà các nhà toán học như Blaise Pascal và Pierre de Fermat đã đặt nền móng cho lý thuyết xác suất. Họ không chỉ giải quyết các bài toán toán học mà còn mở ra một cách nhìn mới về việc sử dụng dữ liệu để đưa ra quyết định. Thật thú vị khi nghĩ rằng những khái niệm mà họ phát triển vẫn còn được áp dụng rộng rãi trong phân tích dữ liệu hiện đại.</p>
+<p>Đến thế kỷ 19, Florence Nightingale, một nhân vật nổi bật trong lĩnh vực y tế, đã sử dụng biểu đồ để phân tích dữ liệu y tế. Điều này không chỉ giúp cải thiện điều kiện y tế mà còn chứng minh rằng trực quan hóa dữ liệu có thể là một công cụ mạnh mẽ để truyền tải thông tin và thuyết phục người khác. Đây thực sự là một bước tiến lớn, mở đường cho việc sử dụng dữ liệu trong nhiều lĩnh vực khác nhau.</p>
+</section>
+<section id="giai-doan-phat-trien-ban-dau">
+<h2>Giai Đoạn Phát Triển Ban Đầu<a class="headerlink" href="#giai-doan-phat-trien-ban-dau" title="Link to this heading">#</a></h2>
+<p>Khi bước sang thế kỷ 20, chúng ta chứng kiến sự ra đời của máy tính – một công cụ thay đổi hoàn toàn cách con người xử lý dữ liệu. Trước đây, việc phân tích dữ liệu thường mất rất nhiều thời gian và công sức, nhưng với sự hỗ trợ của máy tính, mọi thứ trở nên nhanh chóng và hiệu quả hơn. Đây cũng là thời kỳ mà các phương pháp thống kê như hồi quy tuyến tính và phân tích phương sai (ANOVA) được phát triển, cung cấp những công cụ mạnh mẽ để hiểu và dự đoán dữ liệu.</p>
+<p>Trong những năm 1950 và 1960, IBM đã giới thiệu các hệ thống máy tính thương mại, cho phép lưu trữ và xử lý dữ liệu lớn một cách dễ dàng hơn. Đồng thời, cơ sở dữ liệu quan hệ cũng bắt đầu được phát triển, đặt nền móng cho cách chúng ta tổ chức và truy vấn dữ liệu ngày nay. Đây thực sự là một giai đoạn đầy sáng tạo và đổi mới.</p>
+<p>Trong những năm 1960, Robert McNamara, Bộ trưởng Quốc phòng Hoa Kỳ, đã nổi bật với việc sử dụng phân tích dữ liệu để đưa ra các quyết định chiến lược trong chiến tranh Việt Nam. Ông đã áp dụng các phương pháp định lượng để đánh giá hiệu quả của các chiến dịch quân sự, một cách tiếp cận được gọi là “quản lý bằng số liệu”. Mặc dù cách tiếp cận này gây tranh cãi, nó đã chứng minh rằng dữ liệu có thể đóng vai trò quan trọng trong việc định hình chính sách và chiến lược. Đây là một ví dụ điển hình về cách dữ liệu có thể được sử dụng trong các lĩnh vực ngoài kinh doanh và khoa học.</p>
+</section>
+<section id="thoi-dai-ky-thuat-so">
+<h2>Thời Đại Kỹ Thuật Số<a class="headerlink" href="#thoi-dai-ky-thuat-so" title="Link to this heading">#</a></h2>
+<p>Những năm 1970 và 1980 đánh dấu một bước ngoặt lớn với sự ra đời của SQL – một ngôn ngữ cách mạng hóa cách chúng ta truy vấn và quản lý dữ liệu. Đây cũng là thời kỳ mà các công cụ phân tích dữ liệu như SPSS và SAS xuất hiện, cung cấp cho các nhà phân tích những công cụ mạnh mẽ để làm việc với dữ liệu.</p>
+<p>Đến những năm 1990, Internet bắt đầu bùng nổ, dẫn đến sự gia tăng dữ liệu phi cấu trúc. Đây là một thách thức lớn, nhưng cũng là cơ hội để phát triển các công nghệ mới như kho dữ liệu (data warehouse). Ý tưởng về việc tập trung dữ liệu từ nhiều nguồn khác nhau để phân tích đã trở thành một khái niệm phổ biến và được áp dụng rộng rãi.</p>
+</section>
+<section id="ky-nguyen-du-lieu-lon">
+<h2>Kỷ Nguyên Dữ Liệu Lớn<a class="headerlink" href="#ky-nguyen-du-lieu-lon" title="Link to this heading">#</a></h2>
+<p>Khi bước vào những năm 2000, chúng ta chứng kiến sự xuất hiện của Hadoop và MapReduce – hai công nghệ giúp xử lý dữ liệu lớn một cách hiệu quả hơn. Đây cũng là thời kỳ mà các công ty công nghệ lớn bắt đầu nhận ra giá trị của dữ liệu và sử dụng nó để đưa ra các quyết định kinh doanh chiến lược. Dữ liệu không còn chỉ là một sản phẩm phụ, mà đã trở thành một tài sản quý giá.</p>
+<p>Trong những năm 2010, trí tuệ nhân tạo (AI) và học máy (machine learning) bắt đầu trở thành xu hướng chính. Các công cụ như Python, R, và Tableau cũng trở nên phổ biến, giúp các nhà phân tích dữ liệu dễ dàng hơn trong việc xử lý và trực quan hóa dữ liệu. Đây thực sự là một thời kỳ bùng nổ của công nghệ và sáng tạo.</p>
+</section>
+<section id="hien-tai-va-tuong-lai">
+<h2>Hiện Tại và Tương Lai<a class="headerlink" href="#hien-tai-va-tuong-lai" title="Link to this heading">#</a></h2>
+<p>Bây giờ, khi chúng ta đang sống trong những năm 2020, điện toán đám mây đã trở thành một phần không thể thiếu trong việc lưu trữ và phân tích dữ liệu. Khả năng truy cập dữ liệu từ bất kỳ đâu và bất kỳ lúc nào đã mở ra những cơ hội mới, nhưng cũng đặt ra những thách thức về bảo mật và quyền riêng tư. Đồng thời, phân tích dữ liệu thời gian thực đang trở thành một xu hướng, giúp các tổ chức đưa ra quyết định nhanh chóng và chính xác hơn.</p>
+<p>Nhìn về tương lai, tôi tin rằng sự kết hợp giữa AI và phân tích dữ liệu sẽ mang lại những đột phá mới. Dữ liệu phi cấu trúc và dữ liệu từ các thiết bị IoT sẽ tiếp tục là những thách thức lớn, nhưng cũng là cơ hội để chúng ta phát triển các công nghệ và phương pháp mới. Đây thực sự là một thời kỳ thú vị để làm việc trong lĩnh vực này.</p>
+</section>
+<section id="ket-luan">
+<h2>Kết Luận<a class="headerlink" href="#ket-luan" title="Link to this heading">#</a></h2>
+<p>Nhìn lại, ngành phân tích dữ liệu đã trải qua một chặng đường dài, từ những phương pháp thủ công đến các công nghệ hiện đại. Điều này cho thấy rằng, với sự phát triển không ngừng của công nghệ, tương lai của ngành này hứa hẹn sẽ còn nhiều tiềm năng để khám phá. Tôi cảm thấy rất hào hứng khi nghĩ về những gì chúng ta có thể đạt được trong những năm tới, và tôi hy vọng rằng bạn cũng cảm thấy như vậy.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -369,7 +405,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./multivariate"
+            path: "./theory"
         },
         predefinedOutput: true
     }
@@ -387,20 +423,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../theory/compare.html"
+       href="../intro.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Các ngành liên quan</p>
+        <p class="prev-next-title">Data analysis handbook</p>
       </div>
     </a>
     <a class="right-next"
-       href="mulitvariate_with_r.html"
+       href="compare.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Thay SPSS bằng R</p>
+        <p class="prev-next-title">Các ngành liên quan</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -410,6 +446,26 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#thoi-ky-so-khai">Thời Kỳ Sơ Khai</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#giai-doan-phat-trien-ban-dau">Giai Đoạn Phát Triển Ban Đầu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#thoi-dai-ky-thuat-so">Thời Đại Kỹ Thuật Số</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ky-nguyen-du-lieu-lon">Kỷ Nguyên Dữ Liệu Lớn</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hien-tai-va-tuong-lai">Hiện Tại và Tương Lai</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ket-luan">Kết Luận</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

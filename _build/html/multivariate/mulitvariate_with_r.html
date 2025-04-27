@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Phân tích đa biến: sử dụng R thay thế SPSS &#8212; My Data Analysis Handbook</title>
+    <title>Thay SPSS bằng R &#8212; My Data Analysis Handbook</title>
   
   
   
@@ -62,8 +62,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'multivariate/mulitvariate_with_r';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Notebooks with MyST Markdown" href="../markdown-notebooks.html" />
-    <link rel="prev" title="Sổ tay Phân tích dữ liệu" href="../intro.html" />
+    <link rel="next" title="Giới thiệu" href="../econometrics/intro.html" />
+    <link rel="prev" title="Giới thiệu" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -155,8 +155,8 @@
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="My Data Analysis Handbook - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="My Data Analysis Handbook - Home"/>`);</script>
+    <img src="../_static/logo_50.png" class="logo__image only-light" alt="My Data Analysis Handbook - Home"/>
+    <script>document.write(`<img src="../_static/logo_50.png" class="logo__image only-dark" alt="My Data Analysis Handbook - Home"/>`);</script>
   
   
 </a></div>
@@ -177,16 +177,23 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../intro.html">
-                    Sổ tay Phân tích dữ liệu
+                    Data analysis handbook
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Phân tích dữ liệu đa biến</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Phân tích đa biến: sử dụng R thay thế SPSS</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Introduction</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Bàn về lý thuyết</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../theory/history.html">Lịch Sử</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theory/compare.html">Các ngành liên quan</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Phân tích dữ liệu đa biến</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Giới thiệu</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Thay SPSS bằng R</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Kinh tế lượng nâng cao</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../econometrics/intro.html">Giới thiệu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 
@@ -229,53 +236,6 @@
         <div class="header-article-item">
 
 <div class="article-header-buttons">
-
-
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/tqthanhcong/da_book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
-   title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/tqthanhcong/da_book/issues/new?title=Issue%20on%20page%20%2Fmultivariate/mulitvariate_with_r.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
-</a>
-</li>
-      
-  </ul>
-</div>
-
 
 
 
@@ -373,7 +333,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Phân tích đa biến: sử dụng R thay thế SPSS</h1>
+    <h1>Thay SPSS bằng R</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -431,8 +391,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="phan-tich-da-bien-su-dung-r-thay-the-spss">
-<h1>Phân tích đa biến: sử dụng R thay thế SPSS<a class="headerlink" href="#phan-tich-da-bien-su-dung-r-thay-the-spss" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="thay-spss-bang-r">
+<h1>Thay SPSS bằng R<a class="headerlink" href="#thay-spss-bang-r" title="Link to this heading">#</a></h1>
 <p>Xét về ngôn ngữ lập trình, so với Python thì R gần gũi hơn với các nhà thống kê, do đó chúng ta sẽ bắt đầu bằng việc chuyển từ SPSS sang R</p>
 <p>Page này sử dụng code R để thực hiện các lệnh thường dùng trên SPSS, cụ thể là hướng dẫn cách mở và đọc file SPSS, thực hiện tóm tắt cho các biến đơn biến và hai biến, sau đó đi sâu vào các chủ đề như phân tích nhân tố, phân tích thành phần chính (PCA), phân tích phân biệt, hồi quy và phân cụm.</p>
 <section id="general-setup">
@@ -549,18 +509,42 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html"><table class="dataframe">
-<caption>A tibble: 2 x 26</caption>
-<thead>
-	<tr><th scope=col>TT1</th><th scope=col>TT2</th><th scope=col>TT3</th><th scope=col>HH1</th><th scope=col>HH2</th><th scope=col>HH3</th><th scope=col>DV1</th><th scope=col>DV2</th><th scope=col>DV3</th><th scope=col>DV4</th><th scope=col>...</th><th scope=col>Nghe</th><th scope=col>Thu_nhap</th><th scope=col>Hoc_van</th><th scope=col>ctieums</th><th scope=col>X1</th><th scope=col>X3</th><th scope=col>Y</th><th scope=col>X2</th><th scope=col>CD_DH</th><th scope=col>chitieuMH</th></tr>
-	<tr><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>...</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th><th scope=col>&lt;fct&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>Hoan toan dong y</td><td>Hoan toan dong y</td><td>Hoan toan dong y</td><td>Khong dong y</td><td>Dong y</td><td>Dong y</td><td>Hoan toan dong y</td><td>Hoan toan dong y</td><td>Hoan toan dong y</td><td>Hoan toan dong y</td><td>...</td><td>Van phong</td><td>15 tro len</td><td>cao dang-dai hoc</td><td>0.5</td><td>5  </td><td>3.33333333333333</td><td>4.91666666666667</td><td>5</td><td>cao dang-dai hoc</td><td>0.0-0.9</td></tr>
-	<tr><td>Dong y          </td><td>Dong y          </td><td>Dong y          </td><td>Dong y      </td><td>Dong y</td><td>Dong y</td><td>Khong co y kien </td><td>Khong co y kien </td><td>Khong co y kien </td><td>Dong y          </td><td>...</td><td>Van phong</td><td>10-14     </td><td>cao dang-dai hoc</td><td>1  </td><td>3.4</td><td>4               </td><td>3.8             </td><td>4</td><td>cao dang-dai hoc</td><td>1.0-1.9</td></tr>
-</tbody>
-</table>
-</div></div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="ne">Error</span>:
+<span class="o">!</span><span class="w"> </span><span class="o">[</span>conflicted<span class="o">]</span><span class="w"> </span>as_factor<span class="w"> </span>found<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">2</span><span class="w"> </span>packages.
+<span class="n">Either</span> <span class="n">pick</span> <span class="n">the</span> <span class="n">one</span> <span class="n">you</span> <span class="n">want</span> <span class="k">with</span> <span class="err">`</span><span class="p">::</span><span class="err">`</span><span class="p">:</span>
+<span class="o">*</span> <span class="n">sjlabelled</span><span class="p">::</span><span class="n">as_factor</span>
+<span class="o">*</span> <span class="n">forcats</span><span class="p">::</span><span class="n">as_factor</span>
+<span class="n">Or</span> <span class="n">declare</span> <span class="n">a</span> <span class="n">preference</span> <span class="k">with</span> <span class="err">`</span><span class="n">conflicts_prefer</span><span class="p">()</span><span class="err">`</span><span class="p">:</span>
+<span class="o">*</span> <span class="err">`</span><span class="n">conflicts_prefer</span><span class="p">(</span><span class="n">sjlabelled</span><span class="p">::</span><span class="n">as_factor</span><span class="p">)</span><span class="err">`</span>
+<span class="o">*</span> <span class="err">`</span><span class="n">conflicts_prefer</span><span class="p">(</span><span class="n">forcats</span><span class="p">::</span><span class="n">as_factor</span><span class="p">)</span><span class="err">`</span>
+<span class="ne">Traceback</span>:
+
+<span class="mi">1</span><span class="o">.</span> <span class="p">(</span><span class="n">function</span> <span class="p">(</span><span class="n">value</span><span class="p">)</span> 
+ <span class="o">.</span> <span class="p">{</span>
+ <span class="o">.</span>     <span class="k">if</span> <span class="p">(</span><span class="n">from_save</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">calls</span><span class="p">()))</span> 
+ <span class="o">.</span>         <span class="k">return</span><span class="p">(</span><span class="n">NULL</span><span class="p">)</span>
+ <span class="o">.</span>     <span class="n">bt_name</span> <span class="o">&lt;-</span> <span class="n">backtick</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+ <span class="o">.</span>     <span class="n">namespace</span> <span class="o">&lt;-</span> <span class="n">map_chr</span><span class="p">(</span><span class="n">pkgs</span><span class="p">,</span> <span class="n">function</span><span class="p">(</span><span class="n">pkg</span><span class="p">)</span> <span class="p">{</span>
+ <span class="o">.</span>         <span class="n">style_object</span><span class="p">(</span><span class="n">pkg</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+ <span class="o">.</span>     <span class="p">})</span>
+ <span class="o">.</span>     <span class="n">names</span><span class="p">(</span><span class="n">namespace</span><span class="p">)</span> <span class="o">&lt;-</span> <span class="n">rep</span><span class="p">(</span><span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="n">length</span><span class="p">(</span><span class="n">namespace</span><span class="p">))</span>
+ <span class="o">.</span>     <span class="n">prefer</span> <span class="o">&lt;-</span> <span class="n">prefer_bullets</span><span class="p">(</span><span class="n">pkgs</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+ <span class="o">.</span>     <span class="n">cli</span><span class="p">::</span><span class="n">cli_abort</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="s2">&quot;{label_conflicted()} {.strong </span><span class="si">{name}</span><span class="s2">} found in {length(pkgs)} packages.&quot;</span><span class="p">,</span> 
+ <span class="o">.</span>         <span class="s2">&quot;Either pick the one you want with {.code ::}:&quot;</span><span class="p">,</span> <span class="n">namespace</span><span class="p">,</span> 
+ <span class="o">.</span>         <span class="s2">&quot;Or declare a preference with {.fn {add_ns(&#39;conflicts_prefer&#39;)}}:&quot;</span><span class="p">,</span> 
+ <span class="o">.</span>         <span class="n">prefer</span><span class="p">))</span>
+ <span class="o">.</span> <span class="p">})()</span>
+<span class="mi">2</span><span class="o">.</span> <span class="n">cli</span><span class="p">::</span><span class="n">cli_abort</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="s2">&quot;{label_conflicted()} {.strong </span><span class="si">{name}</span><span class="s2">} found in {length(pkgs)} packages.&quot;</span><span class="p">,</span> 
+ <span class="o">.</span>     <span class="s2">&quot;Either pick the one you want with {.code ::}:&quot;</span><span class="p">,</span> <span class="n">namespace</span><span class="p">,</span> 
+ <span class="o">.</span>     <span class="s2">&quot;Or declare a preference with {.fn {add_ns(&#39;conflicts_prefer&#39;)}}:&quot;</span><span class="p">,</span> 
+ <span class="o">.</span>     <span class="n">prefer</span><span class="p">))</span>
+<span class="mi">3</span><span class="o">.</span> <span class="n">rlang</span><span class="p">::</span><span class="n">abort</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="o">...</span><span class="p">,</span> <span class="n">call</span> <span class="o">=</span> <span class="n">call</span><span class="p">,</span> <span class="n">use_cli_format</span> <span class="o">=</span> <span class="n">TRUE</span><span class="p">,</span> 
+ <span class="o">.</span>     <span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="o">.</span><span class="n">frame</span><span class="p">)</span>
+<span class="mi">4</span><span class="o">.</span> <span class="n">signal_abort</span><span class="p">(</span><span class="n">cnd</span><span class="p">,</span> <span class="o">.</span><span class="n">file</span><span class="p">)</span>
+<span class="mi">5</span><span class="o">.</span> <span class="n">signalCondition</span><span class="p">(</span><span class="n">cnd</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1053,15 +1037,15 @@ F = 2, num df = 2, denom df = 43, p-value = 0.2
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># cronbach alpha: to evaluate variable</span>
 <span class="n">items</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dat_online</span><span class="p">[,</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s">&quot;TT1&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;TT2&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;TT3&quot;</span><span class="p">)]</span>
 <span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">var_label</span><span class="p">(</span><span class="n">dat_online</span><span class="p">)</span>
-<span class="n">alpha_results</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">alpha</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
-<span class="nf">kable</span><span class="p">(</span><span class="n">alpha_results</span><span class="o">$</span><span class="n">total</span><span class="p">,</span><span class="n">booktabs</span><span class="o">=</span><span class="bp">T</span><span class="p">)</span>
+<span class="n">alpha_results</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">psych</span><span class="o">::</span><span class="nf">alpha</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+<span class="nf">kable</span><span class="p">(</span><span class="n">alpha_results</span><span class="o">$</span><span class="n">total</span><span class="p">,</span><span class="n">booktabs</span><span class="o">=</span><span class="bp">T</span><span class="p">,</span><span class="n">format</span><span class="o">=</span><span class="s">&#39;pandoc&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   | raw_alpha| std.alpha| G6(smc)| average_r|  S/N|  ase| mean|    sd| median_r|
-|:--|---------:|---------:|-------:|---------:|----:|----:|----:|-----:|--------:|
-|   |     0.908|     0.908|   0.877|     0.767| 9.89| 0.01|  4.4| 0.486|    0.737|
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>      raw_alpha   std.alpha   G6(smc)   average_r    S/N    ase   mean      sd   median_r
+---  ----------  ----------  --------  ----------  -----  -----  -----  ------  ---------
+          0.908       0.908     0.877       0.767   9.89   0.01    4.4   0.486      0.737
 </pre></div>
 </div>
 </div>
@@ -1088,12 +1072,12 @@ F = 2, num df = 2, denom df = 43, p-value = 0.2
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># cronbach alpha: to evaluate variable</span>
 <span class="n">items</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dat_online</span><span class="p">[,</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s">&quot;TT1&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;HH1&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;DV1&quot;</span><span class="p">)]</span>
 <span class="n">labels</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">var_label</span><span class="p">(</span><span class="n">dat_online</span><span class="p">)</span>
-<span class="n">alpha_results</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">alpha</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+<span class="n">alpha_results</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">psych</span><span class="o">::</span><span class="nf">alpha</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="s">&#39;Total:&#39;</span><span class="p">)</span>
-<span class="nf">kable</span><span class="p">(</span><span class="n">alpha_results</span><span class="o">$</span><span class="n">total</span><span class="p">,</span><span class="n">booktabs</span><span class="o">=</span><span class="bp">T</span><span class="p">)</span>
+<span class="nf">kable</span><span class="p">(</span><span class="n">alpha_results</span><span class="o">$</span><span class="n">total</span><span class="p">,</span><span class="n">booktabs</span><span class="o">=</span><span class="bp">T</span><span class="p">,</span><span class="n">format</span><span class="o">=</span><span class="s">&#39;pandoc&#39;</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="s">&#39;Drop:&#39;</span><span class="p">)</span>
-<span class="nf">kable</span><span class="p">(</span><span class="n">alpha_results</span><span class="o">$</span><span class="n">alpha.drop</span><span class="p">)</span>
+<span class="nf">kable</span><span class="p">(</span><span class="n">alpha_results</span><span class="o">$</span><span class="n">alpha.drop</span><span class="p">,</span><span class="n">format</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#39;pandoc&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1101,19 +1085,19 @@ F = 2, num df = 2, denom df = 43, p-value = 0.2
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[1] &quot;Total:&quot;
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|   | raw_alpha| std.alpha| G6(smc)| average_r|   S/N|  ase| mean|    sd| median_r|
-|:--|---------:|---------:|-------:|---------:|-----:|----:|----:|-----:|--------:|
-|   |     0.276|     0.333|   0.299|     0.143| 0.499| 0.08| 3.98| 0.409|    0.059|
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>      raw_alpha   std.alpha   G6(smc)   average_r     S/N    ase   mean      sd   median_r
+---  ----------  ----------  --------  ----------  ------  -----  -----  ------  ---------
+          0.276       0.333     0.299       0.143   0.499   0.08   3.98   0.409      0.059
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[1] &quot;Drop:&quot;
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>|    | raw_alpha| std.alpha| G6(smc)| average_r|    S/N| alpha se| var.r|  med.r|
-|:---|---------:|---------:|-------:|---------:|------:|--------:|-----:|------:|
-|TT1 |     0.107|     0.111|   0.059|     0.059|  0.125|    0.107|    NA|  0.059|
-|HH1 |     0.547|     0.550|   0.379|     0.379|  1.220|    0.056|    NA|  0.379|
-|DV1 |    -0.018|    -0.019|  -0.010|    -0.010| -0.019|    0.117|    NA| -0.010|
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>       raw_alpha   std.alpha   G6(smc)   average_r      S/N   alpha se   var.r    med.r
+----  ----------  ----------  --------  ----------  -------  ---------  ------  -------
+TT1        0.107       0.111     0.059       0.059    0.125      0.107      NA    0.059
+HH1        0.547       0.550     0.379       0.379    1.220      0.056      NA    0.379
+DV1       -0.018      -0.019    -0.010      -0.010   -0.019      0.117      NA   -0.010
 </pre></div>
 </div>
 </div>
@@ -1545,20 +1529,20 @@ Note:               *p&lt;0.1; **p&lt;0.05; ***p&lt;0.01
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../intro.html"
+       href="intro.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Sổ tay Phân tích dữ liệu</p>
+        <p class="prev-next-title">Giới thiệu</p>
       </div>
     </a>
     <a class="right-next"
-       href="../markdown-notebooks.html"
+       href="../econometrics/intro.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
+        <p class="prev-next-title">Giới thiệu</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

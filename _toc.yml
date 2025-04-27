@@ -4,9 +4,15 @@
 format: jb-book
 root: intro
 parts:
+- caption: Bàn về lý thuyết
+  chapters:
+  - file: theory/history.md
+  - file: theory/compare.md
 - caption: Phân tích dữ liệu đa biến
   chapters:
+  - file: multivariate/intro
   - file: multivariate/mulitvariate_with_r
-- caption: Introduction
+- caption: Kinh tế lượng nâng cao
   chapters:
+  - file: econometrics/intro.md
   - file: markdown-notebooks

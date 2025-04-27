@@ -3,7 +3,7 @@
 
 title: My Data Analysis Handbook
 author: Cong Tran
-logo: logo.png
+logo: logo_50.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -28,6 +28,13 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
-  use_repository_button: true
+  # use_issues_button: true
+  # use_repository_button: true
   extra_navbar: '<a href="/">← Back to Home</a>'
+  extra_head: |
+    <style>
+      header img.logo {
+        max-height: 10px;
+      }
+    </style>
+  
