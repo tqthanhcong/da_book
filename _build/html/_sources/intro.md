@@ -1,11 +1,9 @@
-# Welcome to your Jupyter Book
+# Chào mừng đến với trang web của tôi
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Đây là nơi tôi chia sẻ các mẫu code ứng dụng cho phân tích dữ liệu. Bạn sẽ tìm thấy nhiều nội dung hữu ích để bắt đầu hoặc nâng cao kỹ năng của mình. Hãy khám phá các trang nội dung để tìm hiểu thêm và tận dụng tối đa tài nguyên này.
 
-Check out the content pages bundled with this sample book to see more.
+Truy cập trang web chính thức tại [congtrandata.io.vn](https://congtrandata.io.vn) để khám phá thêm nhiều tài nguyên và thông tin hữu ích.
 
 ```{tableofcontents}
 ```
+
